@@ -1,0 +1,249 @@
+/* Começo do css Navbar */
+.s{
+    background-color: #EDEDED;
+    font-family: "Inria Serif", serif;
+  }
+
+  /* Começo da imagem inicio */
+
+  #img_home{
+    position: relative; 
+    height: 500px; 
+    overflow: hidden;
+  }
+
+  .text-overlay{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+  }
+
+  .h1_banner{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Inria Serif", serif;
+  }
+
+  .p_banner{
+    font-size: 18px; 
+    max-width: 600px; 
+    font-weight: 400;
+  }
+
+
+  /* Fim da imagem inicio */
+
+  .navbar {
+      background-color: white;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+      height: 8vh;
+    }
+
+    .navbar-brand {
+      font-size: 16px;
+    }
+
+    .brand-highlight {
+      color: #DF6296;
+      font-weight: 500;
+    }
+
+    .nav-link {
+      color: #333;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 0 15px;
+    }
+
+    .nav-link.active,
+    .nav-link:hover {
+      color: #DF6296;
+    }
+
+    .navbar-nav {
+      gap: 10px;
+    }   
+    
+/* Inicío do css Carrousel */
+
+
+#carouselExemplo {
+    width: 1142px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  /* Imagem com tamanho fixo */
+  .carousel-img {
+    width: 1142px;
+    max-width: 100%;
+    height: 588px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  /* Legenda com fundo preto até as bordas */
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem 2rem;
+    text-align: left;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  /* Setas grudadas na imagem */
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
+
+  .carousel-control-prev {
+    left: 0;
+  }
+
+  .carousel-control-next {
+    right: 0;
+  }
+  
+/* Fim do css Carrousel */
+
+
+/* Começo do Atendemos */
+.atendimento {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.titulo {
+  color: #df6296;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.conteudo {
+  background-color: #EFE3E7;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: left;
+  color: #333;
+  line-height: 1.6;
+}
+
+.contato-link {
+  color: #df6296;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.imagens_pedidos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.imagens_pedidos img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.highlight {
+      color: #d63384;
+      font-weight: bold;
+    }
+
+    .about-text {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .about-images img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .image-container {
+      position: relative;
+      text-align: center;
+    }
+
+    .contact-section {
+      background-color: #f0f0f0;
+      padding: 60px 20px;
+    }
+
+    .pink-title {
+      color: #d63384;
+      font-weight: bold;
+    }
+
+    .icon-circle {
+      color: #d63384;
+      width: 50px;
+      height: 50px;
+      font-size: 1.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .icon-circle:hover {
+      transform: scale(1.1);
+    }
+
+    .footer{
+      background-color: #d63384;
+    }
+
+    .banner{
+      max-width: 1200px;
+      height: 295px;
+      overflow: hidden;
+    }
+
+    .text-decoration-none{
+      color: #d63384; 
+      font-weight: 500;
+    }
+
+   .container_footer{
+    background-color: #f4d4df !important;
+    font-size: 1.1rem;
+   }
+
+   .w-100{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+   }
