@@ -1,0 +1,243 @@
+.s{
+    background-color: #EDEDED;
+    font-family: "Inria Serif", serif;
+  }
+  
+/* Começo do css Navbar */
+.navbar {
+  background-color: white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  height: 8vh;
+  }
+
+.navbar-brand {
+  font-size: 16px;
+  }
+
+.pink{
+  color: #DF6296 !important;
+  font-weight: 600 !important;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 400;
+  padding: 0 15px;
+  }
+
+.nav-link.active,
+.nav-link:hover {
+  color: #DF6296;
+  }
+
+.brand-highlight {
+  color: #DF6296;
+  font-weight: 500;
+  }
+
+.navbar-nav {
+  gap: 10px;
+  }   
+
+/* Começo da imagem inicio */
+.img_home{
+  position: relative; 
+  height: 500px; 
+  overflow: hidden;
+ }
+
+ .background-blur {
+  background-image: url('../Imagens/receitas-de-doce-gourmet.webp');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.text-overlay{
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  }
+
+.h1_banner{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Inria Serif", serif;
+  }
+
+.p_banner{
+  font-size: 18px; 
+  max-width: 600px; 
+  font-weight: 400;
+  }
+  
+/* Inicío do css Carrousel */
+
+.carousel-indicators{
+  margin-bottom: -2px;
+}
+
+#carouselExemplo {
+  width: 1320px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  }
+
+/* Imagem com tamanho fixo */
+.carousel-img {
+  width: 1320px;
+  max-width: 100%;
+  height: 588px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+ }
+
+/* Legenda com fundo preto até as bordas */
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
+  text-align: left;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  }
+
+/* Setas grudadas na imagem */
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  }
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+  
+/* Atendemos */
+.box-pedidos {
+  max-width: 1320px;
+  background-color: #fce6ec;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text_principal_atendemos{
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #d63384;
+}
+
+/* Sobre nós */
+.highlight {
+  color: #d63384;
+  font-weight: bold;
+  }
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-size: 16px;
+  }
+
+.about-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  }
+
+/* Contato */
+.contact-section {
+  padding: 60px 20px;
+  }
+
+.fw-bold{
+  color: #d63384;
+}
+
+.pink-title {
+  color: #d63384;
+  font-weight: bold;
+  }
+
+.icon-circle {
+  color: #d63384;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  }
+
+.icon-circle:hover {
+  transform: scale(1.1);
+  }
+
+
+/* Footer */
+.footer{
+  background-color: #d63384;
+  }
+
+.banner{
+  max-width: 1200px;
+  height: 295px;
+  overflow: hidden;
+  }
+
+.text-decoration-none{
+  color: #d63384; 
+  font-weight: 600;
+  text-decoration: none;
+  }
+
+.footer-rosa {
+  background-color: #fce6ec;
+  }
+  
+.w-100{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  }
+
+.slide-texto{
+  color: #ffffff;
+  font-size: 1.6rem;
+}
